@@ -17,3 +17,16 @@ Untuk mengubah port klien, perlu dilakukan pengubahan pada metode `ClientBuilder
 ![Modifying port](assets/images/Server.jpg)
 
 Untuk mengubah port server, perlu dilakukan pengubahan pada metode `TcpListener::bind()`.
+
+## Small changes. Add some information to client
+![Small changes. Add some information to client](assets/images/Small%20changes.%20Add%20some%20information%20to%20client.jpg)
+
+Perubahan pada `client.rs`
+![Small changes. Add some information to client](assets/images/Client2.jpg)
+
+Saya hanya menambahkan text `Raquel's Computer`
+
+Perubahan pada `server.rs`
+![Small changes. Add some information to server](assets/images/Server2.jpg)
+
+Menambahkan client address pada pesan yang dikirim client
